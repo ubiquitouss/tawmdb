@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'vidly.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tawmdb.db',
+        'NAME': 'tawmdb',
         'USER': 'postgres',
         'PASSWORD': 'kof',
         'HOST': 'localhost',
